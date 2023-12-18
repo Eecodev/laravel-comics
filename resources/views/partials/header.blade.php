@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container justify-content-between">
-            <img src="{{asset('')}}" alt="">
+            <img src="{{asset('/public/img/dc-logo-bg.png')}}" alt="">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#">CHARACTERS</a>
