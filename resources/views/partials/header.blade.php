@@ -1,6 +1,6 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container justify-content-between">
+        <div class="container">
             <img class="logo-head" src="{{Vite::asset('/resources/img/dc-logo.png')}}" alt="">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
