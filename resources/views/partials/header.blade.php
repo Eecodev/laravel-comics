@@ -1,7 +1,7 @@
 <header>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container justify-content-between">
-            <img src="{{asset('/public/img/dc-logo-bg.png')}}" alt="">
+            <img class="logo-head" src="{{Vite::asset('/resources/img/dc-logo.png')}}" alt="">
             <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
                     <a class="nav-link active" aria-current="page" href="#">CHARACTERS</a>
