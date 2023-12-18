@@ -1,28 +1,21 @@
-<!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
+@extends('layouts.app')
 
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+@section('title', 'Home')
 
-    <title>Laravel Comics @yield('title', 'template')</title>
+@section('content')
+<main>
+    <section class="container">
+        <h1>Comics</h1>
+        <div class="row">
 
-    <!-- Fonts -->
-    <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
-
-    <!-- Styles -->
-    @vite('resources/js/app.js')
-
-</head>
-
-<body>
-
-    @include('partials.header')
-
-    @yield('content')
-
-    @include('partials.footer')
-
-</body>
-
-</html>
+            @foreach ($comics as $comic)
+            <div class="col-12 col-md-4 col-lg-3">
+                <div class="card">
+                    <img src="{{$comic ['thumb']}}" alt="{{$comic['title']}}">
+                </div>
+            </div>
+            @endforeach
+            
+        </div>
+    </section>
+</main>
