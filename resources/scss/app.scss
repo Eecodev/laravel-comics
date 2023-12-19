@@ -8,13 +8,17 @@ $fa-font-path: "../webfonts" !default;
 @import '~bootstrap/scss/bootstrap';
 
 .logo-head{
-    width: 3rem;
+     width: 3em;
 }
+
 
 ul{
     list-style: none;
 }
-
 .nav-item{
     font-size: 0.7em;
+}
+.jumbo-container{
+    height: 400px;
+    background-image: url('../img/jumbotron.jpg');
 }

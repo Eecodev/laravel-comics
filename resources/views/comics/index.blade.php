@@ -14,7 +14,7 @@
                     <div class="card-body">
                         <h5 class="card-title">{{$comic['title']}}</h5>
                         <p class="card-title">{!! substr($comic['description'], 0, 100) . '...' !!}</p>
-                        <a href="#" class="btn">Info</a>
+                        <a href="#" class="btn btn-success">Info</a>
                     </div>
                 </div>
             </div>
