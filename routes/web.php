@@ -18,3 +18,8 @@ Route::get('/', function () {
     // dd($comics);
     return view('home', compact('comics'));
 });
+
+Route::get('/comics', function ($id) {
+    $comics = config('db.comics');
+    return view('comic', compact('comics'));
+});
