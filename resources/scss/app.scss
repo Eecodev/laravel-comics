@@ -8,5 +8,13 @@ $fa-font-path: "../webfonts" !default;
 @import '~bootstrap/scss/bootstrap';
 
 .logo-head{
-    width: 2.5rem;
+    width: 3rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav-item{
+    font-size: 0.7em;
 }
