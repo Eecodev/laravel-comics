@@ -14,7 +14,7 @@ use App\Http\Controllers\ComicController;
 */
 
 Route::get('/', function () {
-    return redirect('/comics');
+    return to_route('comics.index');
 })->name('home');
 
 // Route::get('/comics{id}', function ($id) {
